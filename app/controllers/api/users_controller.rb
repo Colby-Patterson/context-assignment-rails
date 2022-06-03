@@ -2,8 +2,8 @@ class Api::UsersController < ApplicationController
 
   
 def index
-  users = user.all
-  render json: user
+  users = User.all
+  render json: users
 end
 
 # # READ - single employee
